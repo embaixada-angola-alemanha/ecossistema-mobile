@@ -11,7 +11,7 @@ import { colors } from '@config/theme';
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const linking = {
-  prefixes: ['ao.gov.embaixada.mobile://', 'https://embaixada-angola.de/app'],
+  prefixes: ['ao.gov.embaixada.mobile://', 'https://embaixada-angola.site/app'],
   config: {
     screens: {
       Main: {

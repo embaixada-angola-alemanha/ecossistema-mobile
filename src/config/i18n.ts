@@ -5,7 +5,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import pt from '../../assets/i18n/pt.json';
 import en from '../../assets/i18n/en.json';
 import de from '../../assets/i18n/de.json';
-import fr from '../../assets/i18n/fr.json';
+import cs from '../../assets/i18n/cs.json';
 
 const LANGUAGE_KEY = 'mobile-lang';
 
@@ -14,7 +14,7 @@ i18n.use(initReactI18next).init({
     pt: { translation: pt },
     en: { translation: en },
     de: { translation: de },
-    fr: { translation: fr },
+    cs: { translation: cs },
   },
   lng: 'pt',
   fallbackLng: 'pt',
